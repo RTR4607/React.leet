@@ -5,6 +5,7 @@ import ClassComponent from './components/ClassComponent.jsx';
 import Outer from './components/Closures.jsx';
 import OnClick from './components/EventHandlers.jsx';
 import ReactHooks from './components/ReactHooks.jsx';
+import ParentComponent from './props/ParentComponent.jsx';
 
 function Button({label}){
   return <button>{label}</button>
@@ -39,6 +40,7 @@ function App() {
     <Footer />
     <ReactHooks />
     <OnClick />
+    <ParentComponent />
     </div>
   );
 }

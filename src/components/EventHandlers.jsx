@@ -8,9 +8,4 @@ function OnClick()
 }
 
 
-function OnChange(){
-
-    <input type='text'></input>
-}
-
 export default OnClick;
